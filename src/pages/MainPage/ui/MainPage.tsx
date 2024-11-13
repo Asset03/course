@@ -1,8 +1,22 @@
+import { useTranslation } from 'react-i18next';
+
 const MainPage = () => {
+    const { t } = useTranslation();
 
     return (
-        <div>Main</div>
-    )
-}
+        <div>
+            {t('main')}
+            {' '}
+            {t('world')}
+            {' '}
+            {t('car')}
+            {' '}
+            {t('animal')}
+            {' '}
+            {t('sun')}
+        </div>
+
+    );
+};
 
 export default MainPage;
