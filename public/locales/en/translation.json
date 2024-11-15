@@ -6,5 +6,7 @@
   "car": "car",
   "animal": "animal",
   "sun": "sun",
-  "Not found": "Not found"
+  "Not found": "Not found",
+  "Reload Page": "Reload Page",
+  "throw error": "throw error"
 }
