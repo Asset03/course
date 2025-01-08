@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import Loader from './Loader';
+import { Loader } from './Loader';
 
 const meta: Meta<typeof Loader> = {
     title: 'shared/Loader',
@@ -9,7 +9,7 @@ const meta: Meta<typeof Loader> = {
         // layout: 'centered',
     },
     tags: ['autodocs'],
-    args: { },
+    args: {},
 };
 
 export default meta;
