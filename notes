@@ -2,3 +2,7 @@ import { DeepPartial } from "@reduxjs/toolkit";
 ~~~
 // const state: DeepPartial<StateSchema> = {
 //  Тест жазып жатканда барлык обезатеьнвй полясыз жасау беру ге болады 
+
+ Omit
+ ~~~
+// typescript type которой можно изменить свойства html элемента 
