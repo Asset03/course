@@ -6,3 +6,7 @@ import { DeepPartial } from "@reduxjs/toolkit";
  Omit
  ~~~
 // typescript type которой можно изменить свойства html элемента 
+
+shift + alt + f
+~~~
+// auto fix eslint + format file
