@@ -1,8 +1,8 @@
 import React from 'react';
+import { ComponentMeta, ComponentStory } from '@storybook/react';
+import { Text, TextTheme } from 'shared/ui/Text/Text';
 import { ThemeDecorator } from 'shared/config/storybook/ThemeDecorator/ThemeDecorator';
-import { ComponentStory, ComponentMeta } from '@storybook/react';
 import { Theme } from 'app/providers/ThemeProvider';
-import { Text, TextTheme } from './Text';
 
 export default {
     title: 'shared/Text',
@@ -16,42 +16,42 @@ const Template: ComponentStory<typeof Text> = (args) => <Text {...args} />;
 
 export const Primary = Template.bind({});
 Primary.args = {
-    title: 'Title Title Title',
-    text: 'Description Description Description',
+    title: 'Title lorem ipsun',
+    text: 'Description Description Description Description',
 };
 
 export const Error = Template.bind({});
 Error.args = {
-    title: 'Title Title Title',
-    text: 'Description Description Description',
+    title: 'Title lorem ipsun',
+    text: 'Description Description Description Description',
     theme: TextTheme.ERROR,
 };
 
 export const onlyTitle = Template.bind({});
 onlyTitle.args = {
-    title: 'Title Title Title',
+    title: 'Title lorem ipsun',
 };
 
 export const onlyText = Template.bind({});
 onlyText.args = {
-    text: 'Description Description Description',
+    text: 'Description Description Description Description',
 };
 
 export const PrimaryDark = Template.bind({});
-Primary.args = {
-    title: 'Title Title Title',
-    text: 'Description Description Description',
+PrimaryDark.args = {
+    title: 'Title lorem ipsun',
+    text: 'Description Description Description Description',
 };
 PrimaryDark.decorators = [ThemeDecorator(Theme.DARK)];
 
 export const onlyTitleDark = Template.bind({});
-onlyTitle.args = {
-    title: 'Title Title Title',
+onlyTitleDark.args = {
+    title: 'Title lorem ipsun',
 };
 onlyTitleDark.decorators = [ThemeDecorator(Theme.DARK)];
 
 export const onlyTextDark = Template.bind({});
-onlyText.args = {
-    text: 'Description Description Description',
+onlyTextDark.args = {
+    text: 'Description Description Description Description',
 };
 onlyTextDark.decorators = [ThemeDecorator(Theme.DARK)];

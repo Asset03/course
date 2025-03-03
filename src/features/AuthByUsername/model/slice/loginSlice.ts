@@ -9,7 +9,7 @@ const initialState: LoginSchema = {
 };
 
 export const loginSlice = createSlice({
-    name: 'counter',
+    name: 'login',
     initialState,
     reducers: {
         setUsername: (state, action: PayloadAction<string>) => {
@@ -21,11 +21,11 @@ export const loginSlice = createSlice({
     },
     extraReducers: (builder) => {
         builder
-            .addCase(loginByUsername.pending, (state, action) => {
+            .addCase(loginByUsername.pending, (state) => {
                 state.error = undefined;
                 state.isLoading = true;
             })
-            .addCase(loginByUsername.fulfilled, (state, action) => {
+            .addCase(loginByUsername.fulfilled, (state) => {
                 state.isLoading = false;
             })
             .addCase(loginByUsername.rejected, (state, action) => {
@@ -35,5 +35,6 @@ export const loginSlice = createSlice({
     },
 });
 
+// Action creators are generated for each case reducer function
 export const { actions: loginActions } = loginSlice;
 export const { reducer: loginReducer } = loginSlice;
