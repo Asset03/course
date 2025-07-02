@@ -47,7 +47,7 @@ module.exports = {
             'error',
             {
                 markupOnly: true,
-                ignoreAttribute: ['data-testid', 'to', 'target'],
+                ignoreAttribute: ['data-testid', 'to', 'target', 'justify', 'align', 'direction', 'gap'],
             },
         ],
         'max-len': ['error', { ignoreComments: true, code: 120 }],
@@ -58,8 +58,8 @@ module.exports = {
         'no-param-reassign': 'off',
         'no-undef': 'off',
         'react/no-array-index-key': 'off',
-        'arrow-body-style':'off',
-        'asset03-plugin/path-checker': 'error' 
+        'arrow-body-style': 'off',
+        'asset03-plugin/path-checker': 'error',
     },
     globals: {
         __IS_DEV__: true,

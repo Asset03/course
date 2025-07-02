@@ -547,6 +547,18 @@
       "userId": "2",
       "text": "hello world!",
       "id": "5htZMTB"
+    },
+    {
+      "articleId": "7",
+      "userId": "1",
+      "text": "1231",
+      "id": "_JkGGi8"
+    },
+    {
+      "articleId": "7",
+      "userId": "1",
+      "text": "123142",
+      "id": "Ui091Uw"
     }
   ],
   "users": [
