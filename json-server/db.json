@@ -559,6 +559,18 @@
       "userId": "1",
       "text": "123142",
       "id": "Ui091Uw"
+    },
+    {
+      "articleId": "7",
+      "userId": "2",
+      "text": "acasca",
+      "id": "HWHkaes"
+    },
+    {
+      "articleId": "7",
+      "userId": "2",
+      "text": "1123123",
+      "id": "rrT0-d3"
     }
   ],
   "users": [
@@ -566,21 +578,27 @@
       "id": "1",
       "username": "admin",
       "password": "123",
-      "roles": ["ADMIN"],
+      "roles": [
+        "ADMIN"
+      ],
       "avatar": "https://images.alphacoders.com/234/234403.png"
     },
     {
       "id": "2",
       "username": "user",
       "password": "123",
-      "roles": ["USER"],
+      "roles": [
+        "USER"
+      ],
       "avatar": "https://i.ytimg.com/vi/lc0gis09VZs/maxresdefault.jpg"
     },
     {
       "id": "3",
       "username": "manager",
       "password": "123",
-      "roles": ["MANAGER"],
+      "roles": [
+        "MANAGER"
+      ],
       "avatar": "https://i.ytimg.com/vi/lc0gis09VZs/maxresdefault.jpg"
     }
   ],

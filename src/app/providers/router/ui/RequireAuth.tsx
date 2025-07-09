@@ -26,12 +26,12 @@ export function RequireAuth({ children, roles }: RequireAuthProps) {
         });
     }, [roles, userRoles]);
 
-    if (!hasRequiredRoles) {
-        return <Navigate to={RoutePath.forbidden} state={{ from: location }} replace />;
-    }
-
     if (!auth) {
         return <Navigate to={RoutePath.main} state={{ from: location }} replace />;
+    }
+
+    if (!hasRequiredRoles) {
+        return <Navigate to={RoutePath.forbidden} state={{ from: location }} replace />;
     }
 
     return children;
