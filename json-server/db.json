@@ -566,14 +566,21 @@
       "id": "1",
       "username": "admin",
       "password": "123",
-      "role": "ADMIN",
+      "roles": ["ADMIN"],
       "avatar": "https://images.alphacoders.com/234/234403.png"
     },
     {
       "id": "2",
       "username": "user",
       "password": "123",
-      "role": "USER",
+      "roles": ["USER"],
+      "avatar": "https://i.ytimg.com/vi/lc0gis09VZs/maxresdefault.jpg"
+    },
+    {
+      "id": "3",
+      "username": "manager",
+      "password": "123",
+      "roles": ["MANAGER"],
       "avatar": "https://i.ytimg.com/vi/lc0gis09VZs/maxresdefault.jpg"
     }
   ],
