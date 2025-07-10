@@ -16,7 +16,7 @@ import { AddCommentFormSchema } from 'features/addCommentForm';
 import { ArticlesPageSchema } from 'pages/ArticlesPage';
 import { ScrollSaveSchema } from 'features/ScrollSave';
 import { rtkApi } from 'shared/api/rtkApi';
-import { ProfileSchema } from 'features/editableProfileCard/model/types/editableProfileCardSchema';
+import { ProfileSchema } from 'features/editableProfileCard';
 
 export interface StateSchema {
     counter: CounterSchema;
