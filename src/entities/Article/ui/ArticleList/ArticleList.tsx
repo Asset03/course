@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next';
 import { HTMLAttributeAnchorTarget, memo } from 'react';
 import { Text, TextSize } from 'shared/ui/Text/Text';
 import {
-    AutoSizer, List, ListRowProps, WindowScroller,
+    List, ListRowProps, WindowScroller,
 } from 'react-virtualized';
 import { PAGE_ID } from 'widgets/Page/Page';
 import { ArticleListItemSkeleton } from '../ArticleListItem/ArticleListItemSkeleton';
@@ -81,6 +81,7 @@ export const ArticleList = memo((props: ArticleListProps) => {
     }
 
     return (
+        // @ts-ignore
         <WindowScroller
             onScroll={() => console.log('scroll')}
             scrollElement={document.getElementById(PAGE_ID) as Element}
@@ -94,10 +95,12 @@ export const ArticleList = memo((props: ArticleListProps) => {
                 scrollTop,
             }) => (
                 <div
+                    // @ts-ignore
                     ref={registerChild}
                     className={classNames(cls.ArticleList, {}, [className, cls[view]])}
                 >
                     {virtualized ? (
+                        // @ts-ignore
                         <List
                             height={height ?? 700}
                             rowCount={rowCount}
