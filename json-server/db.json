@@ -13,14 +13,14 @@
       "userId": "1",
       "href": "http://localhost:3000/admin"
     },
-     {
+    {
       "id": "3",
       "title": "Уведомление 3",
       "description": "Произошло какое-то событие",
       "userId": "1",
       "href": "http://localhost:3000/admin"
     },
-     {
+    {
       "id": "4",
       "title": "Уведомление 4",
       "description": "Произошло какое-то событие",
@@ -653,6 +653,52 @@
       "city": "Moscow",
       "username": "ulbi tv",
       "avatar": "https://i.ytimg.com/vi/lc0gis09VZs/maxresdefault.jpg"
+    }
+  ],
+  "article-ratings": [
+    {
+      "id": "1",
+      "rate": 4,
+      "feedback": "Хорошая статья",
+      "userId": "1",
+      "articleId": "1"
+    },
+    {
+      "id": "2",
+      "rate": 4,
+      "feedback": "Хорошая статья",
+      "userId": "1",
+      "articleId": "2"
+    },
+    {
+      "userId": "1",
+      "articleId": "3",
+      "rate": 3,
+      "feedback": "Arigato",
+      "id": "uTiNmQG"
+    },
+    {
+      "userId": "1",
+      "articleId": "4",
+      "rate": 3,
+      "feedback": "text",
+      "id": "isXRBPS"
+    }
+  ],
+  "profile-ratings": [
+    {
+      "id": "1",
+      "rate": 4,
+      "feedback": "Хорошая статья",
+      "userId": "1",
+      "profileId": "1"
+    },
+    {
+      "id": "2",
+      "rate": 4,
+      "feedback": "Хорошая статья",
+      "userId": "1",
+      "profileId": "2"
     }
   ]
 }
