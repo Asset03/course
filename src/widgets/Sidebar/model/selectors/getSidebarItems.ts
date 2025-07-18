@@ -1,4 +1,3 @@
-import React from 'react';
 import { createSelector } from '@reduxjs/toolkit';
 import { RoutePath } from '@/shared/const/router';
 import AboutIcon from '@/shared/assets/icons/about-20-20.svg';
