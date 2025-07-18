@@ -7435,10 +7435,10 @@ eslint-module-utils@^2.7.2:
     debug "^3.2.7"
     find-up "^2.1.0"
 
-eslint-plugin-asset03-plugin@^0.0.2:
-  version "0.0.2"
-  resolved "https://registry.npmjs.org/eslint-plugin-asset03-plugin/-/eslint-plugin-asset03-plugin-0.0.2.tgz"
-  integrity sha512-/1dDnqmL6UvlOytgcV6Y200Q7kW0JMvGFU8Q4Ymz2xTvx8hnpAypwqF7btZ28PyylOAV4eky3HzwW2WJqEonhQ==
+eslint-plugin-asset03-plugin@^0.0.3:
+  version "0.0.3"
+  resolved "https://registry.npmjs.org/eslint-plugin-asset03-plugin/-/eslint-plugin-asset03-plugin-0.0.3.tgz"
+  integrity sha512-P/qfCEEkb5i6p53Fka5p52nH//UCwX7Ry+mMWsYgtTp5u2DTG21uzH4Cb90dfb1u/hTJqGbV8ZBJDC8LmqXleQ==
   dependencies:
     requireindex "^1.2.0"
 

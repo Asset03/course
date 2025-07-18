@@ -71,6 +71,7 @@ module.exports = {
         'react/no-array-index-key': 'off',
         'arrow-body-style': 'off',
         'asset03-plugin/path-checker': ['error', { alias: '@' }],
+        'asset03-plugin/public-api-imports': ['error', { alias: '@' }],
     },
     globals: {
         __IS_DEV__: true,
