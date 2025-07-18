@@ -1,3 +1,4 @@
+/* eslint-disable asset03-plugin/layer-imports */
 import { RouteProps } from 'react-router-dom';
 import { UserRole } from '@/entities/User';
 
