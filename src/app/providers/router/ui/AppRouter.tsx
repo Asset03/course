@@ -10,7 +10,6 @@ const AppRouter = () => {
         const element = (
             <Suspense fallback={<PageLoader />}>
                 {route.element}
-                {route.element}
             </Suspense>
         );
         return (
