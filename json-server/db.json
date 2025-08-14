@@ -629,6 +629,15 @@
         "MANAGER"
       ],
       "avatar": "https://i.ytimg.com/vi/lc0gis09VZs/maxresdefault.jpg"
+    },
+     {
+      "id": "4",
+      "username": "testuser",
+      "password": "123",
+      "roles": [
+        "ADMIN"
+      ],
+      "avatar": "https://images.alphacoders.com/234/234403.png"
     }
   ],
   "profile": [
