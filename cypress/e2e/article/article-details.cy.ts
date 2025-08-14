@@ -27,6 +27,7 @@ describe('User Go To Page Article Details Page', () => {
     });
 
     it('leave rating stars', () => {
+        cy.intercept('GET', '**/articles?*', { fixture: 'article-details.json' });
         cy.getByTestId('ArticleDetails.Info');
         cy.getByTestId('RatingCard').scrollIntoView();
         cy.setRate(4, 'feedback');
