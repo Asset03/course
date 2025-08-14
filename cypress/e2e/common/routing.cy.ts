@@ -1,18 +1,16 @@
-import { selectByTestId } from 'cypress/helpers/selectByTestId';
-
 describe('Routing', () => {
     describe('User not authorized', () => {
         it('Go to Main Page', () => {
             cy.visit('/');
-            cy.get(selectByTestId('MainPage')).should('exist');
+            cy.getByTestId('MainPage').should('exist');
         });
         it('Go to Profile Page', () => {
             cy.visit('/profile/1');
-            cy.get(selectByTestId('MainPage')).should('exist');
+            cy.getByTestId('MainPage').should('exist');
         });
         it('Go to Forbiddne Page', () => {
             cy.visit('/acscas');
-            cy.get(selectByTestId('NotFoundPage')).should('exist');
+            cy.getByTestId('NotFoundPage').should('exist');
         });
     });
     describe('User authorized', () => {
@@ -22,12 +20,12 @@ describe('Routing', () => {
 
         it('Go to Profile Page', () => {
             cy.visit('/profile/1');
-            cy.get(selectByTestId('ProfilePage')).should('exist');
+            cy.getByTestId('ProfilePage').should('exist');
         });
 
         it('Go to Articles Page', () => {
             cy.visit('/articles');
-            cy.get(selectByTestId('ArticlesPage')).should('exist');
+            cy.getByTestId('ArticlesPage').should('exist');
         });
     });
 });

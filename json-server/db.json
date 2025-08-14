@@ -630,7 +630,7 @@
       ],
       "avatar": "https://i.ytimg.com/vi/lc0gis09VZs/maxresdefault.jpg"
     },
-     {
+    {
       "id": "4",
       "username": "testuser",
       "password": "123",
@@ -661,6 +661,17 @@
       "country": "Kazahstan",
       "city": "Moscow",
       "username": "ulbi tv",
+      "avatar": "https://i.ytimg.com/vi/lc0gis09VZs/maxresdefault.jpg"
+    },
+    {
+      "id": "4",
+      "first": "Name4",
+      "lastname": "Surname4",
+      "age": 465,
+      "currency": "USD",
+      "country": "Kazahstan",
+      "city": "Moscow",
+      "username": "testuser",
       "avatar": "https://i.ytimg.com/vi/lc0gis09VZs/maxresdefault.jpg"
     }
   ],
