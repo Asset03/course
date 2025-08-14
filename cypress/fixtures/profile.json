@@ -1,0 +1,11 @@
+ {
+    "id": "1",
+    "first": "Name1",
+    "lastname": "Surname1",
+    "age": 465,
+    "currency": "USD",
+    "country": "Kazahstan",
+    "city": "Moscow",
+    "username": "testuser",
+    "avatar": "https://i.ytimg.com/vi/lc0gis09VZs/maxresdefault.jpg"
+}
