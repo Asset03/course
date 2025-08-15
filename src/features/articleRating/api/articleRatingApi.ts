@@ -3,14 +3,14 @@ import { rtkApi } from '@/shared/api/rtkApi';
 
 interface GetArticleRatingArg {
     userId: string;
-    articleId: string
+    articleId: string;
 }
 
 interface RateArticleArg {
     userId: string;
-    articleId: string
+    articleId: string;
     rate: number;
-    feedback?: string
+    feedback?: string;
 }
 
 const articleRatingApi = rtkApi.injectEndpoints({

@@ -21,8 +21,8 @@ interface ListBoxProps {
     defaultValue?: string;
     onChange: (value: string) => void;
     readonly?: boolean;
-    direction?: DropdownDirection
-    label?: string
+    direction?: DropdownDirection;
+    label?: string;
 }
 
 export function ListBox(props: ListBoxProps) {
@@ -45,7 +45,10 @@ export function ListBox(props: ListBoxProps) {
             <HListBox
                 disabled={readonly}
                 as="div"
-                className={classNames(cls.ListBox, {}, [className, popupCls.popup])}
+                className={classNames(cls.ListBox, {}, [
+                    className,
+                    popupCls.popup,
+                ])}
                 value={value}
                 onChange={onChange}
             >
@@ -54,11 +57,11 @@ export function ListBox(props: ListBoxProps) {
                     // disabled={readonly}
                     className={cls.trigger}
                 >
-                    <Button disabled={readonly}>
-                        {value ?? defaultValue}
-                    </Button>
+                    <Button disabled={readonly}>{value ?? defaultValue}</Button>
                 </HListBox.Button>
-                <HListBox.Options className={classNames(cls.options, {}, optionClasses)}>
+                <HListBox.Options
+                    className={classNames(cls.options, {}, optionClasses)}
+                >
                     {items?.map((item) => (
                         <HListBox.Option
                             key={item.value}

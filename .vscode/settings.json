@@ -1,15 +1,7 @@
 {
-    "i18n-ally.localesPaths": [
-        "public/locales",
-        "src/shared/config/i18n"
-    ],
+    "i18n-ally.localesPaths": ["public/locales", "src/shared/config/i18n"],
     "i18n-ally.keystyle": "flat",
-    "stylelint.validate": [
-        "css",
-        "postcss",
-        "scss"
-    ],
-    "cSpell.words": [
-        "Ошибка"
-    ],
+    "stylelint.validate": ["css", "postcss", "scss"],
+    "cSpell.words": ["Ошибка"],
+    "files.eol": "\n"
 }

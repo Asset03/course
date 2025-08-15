@@ -1,5 +1,8 @@
 import { StateSchema } from '@/app/providers/StoreProvider';
-import { getAddCommentFormText, getAddCommentFormError } from './addCommentFormSelectors';
+import {
+    getAddCommentFormText,
+    getAddCommentFormError,
+} from './addCommentFormSelectors';
 
 describe('getAddCommentFormSelectors.test', () => {
     test('should return text', () => {
@@ -8,7 +11,9 @@ describe('getAddCommentFormSelectors.test', () => {
                 text: 'Hello World!',
             },
         };
-        expect(getAddCommentFormText(state as StateSchema)).toEqual('Hello World!');
+        expect(getAddCommentFormText(state as StateSchema)).toEqual(
+            'Hello World!',
+        );
     });
     test('should return error', () => {
         const state: DeepPartial<StateSchema> = {
