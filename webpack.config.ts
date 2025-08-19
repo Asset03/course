@@ -3,6 +3,7 @@ import path from 'path';
 import { buildWebpackConfig } from './config/build/buildWebpackConfig';
 import { BuildEnv, BuildMode, BuildPaths } from './config/build/types/config';
 
+// to get api url
 function getApiUrl(mode: BuildMode, apiUrl?: string) {
     if (apiUrl) {
         return apiUrl;
