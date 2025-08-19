@@ -20,7 +20,7 @@ interface ArticlesPageProps {
 }
 
 const reducers: ReducersList = {
-    articlesPage: articlesPageReducer,
+    articlesPage: articlesPageReducer, 
 };
 
 const ArticlesPage = (props: ArticlesPageProps) => {

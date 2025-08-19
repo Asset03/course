@@ -570,6 +570,10 @@
             "username": "admin",
             "password": "123",
             "roles": ["ADMIN"],
+            "features": {
+                "isArticleRatingEnabled": true,
+                "isCounterEnabled": true
+            },
             "avatar": "https://images.alphacoders.com/234/234403.png"
         },
         {
@@ -577,6 +581,10 @@
             "username": "user",
             "password": "123",
             "roles": ["USER"],
+            "features": {
+                "isArticleRatingEnabled": false,
+                "isCounterEnabled": false
+            },
             "avatar": "https://i.ytimg.com/vi/lc0gis09VZs/maxresdefault.jpg"
         },
         {
@@ -584,6 +592,10 @@
             "username": "manager",
             "password": "123",
             "roles": ["MANAGER"],
+            "features": {
+                "isArticleRatingEnabled": true,
+                "isCounterEnabled": false
+            },
             "avatar": "https://i.ytimg.com/vi/lc0gis09VZs/maxresdefault.jpg"
         },
         {
@@ -591,6 +603,10 @@
             "username": "testuser",
             "password": "123",
             "roles": ["ADMIN"],
+            "features": {
+                "isArticleRatingEnabled": false,
+                "isCounterEnabled": true
+            },
             "avatar": "https://images.alphacoders.com/234/234403.png"
         }
     ],
