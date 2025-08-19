@@ -13,7 +13,6 @@ const MainPage = () => {
 
     return (
         <Page data-testid="MainPage">
-            <div>1234567</div>
             {t('Главная страница')}
             <Counter />
         </Page>

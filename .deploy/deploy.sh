@@ -1,4 +1,3 @@
-cd course
 npm run build:prod
 
 cd ../../../
