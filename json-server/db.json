@@ -617,7 +617,8 @@
       "jsonSettings": {
         "theme": "app_orange_theme",
         "isFirstVisit": true,
-        "settingsPageHasBeenOpen": false
+        "settingsPageHasBeenOpen": false,
+        "isArticlesWasOpened": true
       },
       "avatar": "https://images.alphacoders.com/234/234403.png"
     },
@@ -653,7 +654,8 @@
       "jsonSettings": {
         "theme": "app_orange_theme",
         "isFirstVisit": true,
-        "settingsPageHasBeenOpen": false
+        "settingsPageHasBeenOpen": false,
+        "isArticlesWasOpened": true
       },
       "avatar": "https://i.ytimg.com/vi/lc0gis09VZs/maxresdefault.jpg"
     },
